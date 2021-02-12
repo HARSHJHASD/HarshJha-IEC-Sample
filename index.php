@@ -1,122 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Engineering College in Noida : MBA College in Noida : Pharmacy College in Noida </title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <!-- Font awesome -->
-  <link href="assets/css/font-awesome.css" rel="stylesheet">
-  <!-- Bootstrap -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <!-- Slick slider -->
-  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-  <!-- Fancybox slider -->
-  <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
-  <!-- Theme color -->
-  <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
-  <!-- Main style sheet -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+<?php  include 'template/header.php';  ?>
 
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-cd9399bb-0b1d-4643-97c0-e47b937e7d16"></div> -->
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <div class="elfsight-app-58d0e528-fcac-40bd-85a2-8bad64600f0d"></div>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="coursesapproved.php"><i class="fa fa-file">Approved Courses</i></a></li>
+                <li><a href="course-detail.html">Admission Process.</a></li>
+                <li><a href="course-detail.html">Documents Required.</a></li>
+                <li><a href="course-detail.html">Career Bulletin.</a></li>
+                <li><a href="course-detail.html">Eligibility.</a></li>
+                <li><a href="course-detail.html">Scholarship</a></li>
+                <li><a href="course-detail.html">FAQS</a></li>
+                <li><a href="course-detail.html">Online Payment</a></li>
+                <li><a href="course-detail.html">Fee Structure.</a></li>
+                <li><a href="course-detail.html">Education Loan.</a></li>
+                <li><a href="course-detail.html">Apply For Online Admission.</a></li>
+                <li><a href="course-detail.html">Internatinal Collaboration.</a></li>
+              </ul>
+            </li>
 
-
-
-  <!-- HTML Code -->
-
-
-
-
-</head>
-
-<body>
-
-  <!--START SCROLL TOP BUTTON -->
-  <a class="scrollToTop" href="#">
-    <i class="fa fa-angle-up"></i>
-  </a>
-  <!-- END SCROLL TOP BUTTON -->
-
-  <!-- Start header  -->
-  <header id="mu-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="mu-header-area">
-            <div class="row">
-
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-left">
-                  <div class="mu-top-phone">
-
-                    <h4 id="admissionhelpline">Admission Helpline</h4>
-                    <i class="fa fa-phone"></i><span>1800-3000-8301</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-right">
-                  <nav>
-                    <ul class="mu-top-social-nav">
-                      <div class="">
-                        <a href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-bullhorn"></span> Online Admission</a>
-                        <p>IEC GROUP OF INSTITUIONS(090)</p>7
-                      </div>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- End header  -->
-
-
-  <!-- Start menu -->
-  <section id="mu-menu">
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- LOGO -->
-          <!-- TEXT BASED LOGO -->
-          <!-- <a class="navbar-brand" href="index.html"><span>IEC GROUP OF INSTITUTIONS</span></a> -->
-          <!-- IMG BASED LOGO  -->
-          <a class="navbar-brand" href="index.html"><img id="logoofiec" src="https://www.iec.edu.in/img/iec-main-logo.png" alt="logo"></a>
-        </div>
-
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="index.html">Admission</a></li>
-            <li><a href="index.html">About IEC</a></li>
+            <li><a href="aboutiec.php">About IEC</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academic<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -138,16 +42,20 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html"><a href="#">Graduate Courses</a></a></li>
-                <li><a href="course-detail.html"> <a href="#">Post Graduate Courses</a> </a></li>
+                <li><h5 class=".text-info">Graduate Courses</h5></li>
+                <li><a class="courseheading" href="course.html">B.Tech</a></li>
+                <li><a class="courseheading" href="course.html">B.Pharma</a></li>
+                <li><h5 class=".text-info">Post Graduate Courses</h5></li>
+                <li><a  class="courseheading" href="course-detail.html">M.B.A</a></li>
+                <li><a  class="courseheading" href="course-detail.html">M.Tech</a></li>
+                <li><a  class="courseheading" href="course-detail.html">M.Pharma</a></li>
               </ul>
             </li>
-            <li><a href="#">Gallery</a></li>
-
+            <li><a href="gallery.php">Gallery</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Placement<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">OVERVIEW</a></li>
+                <li ><a href="placement-overview.php">OVERVIEW</a></li>
                 <li><a href="blog-single.html">PLACEMENT PARTNERS</a></li>
                 <li><a href="blog-single.html">TRAINING PARTNERS</a></li>
                 <li><a href="blog-single.html">CAMPUS PLACEMENT DRIVES</a></li>
@@ -158,21 +66,22 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html"><a href="#">INTERNSHIP POLICY</a></a></li>
-                <li><a href="course.html"><a href="#">IEC JOURNAL(IIJTM)</a></a></li>
-                <li><a href="course.html"><a href="#">CALL FOR MANUSCRIPTS</a></a></li>
-                <li><a href="course.html"><a href="#">R & D CELL PROJECTS</a></a></li>
-                <li><a href="course.html"><a href="#">PAPER PUBLICATION</a></a></li>
-                <li><a href="course.html"><a href="#">INSTITUTION OF ENGINEERS (IE) STUDENT'S CHAPTER</a></a></li>
-                <li><a href="course.html"><a href="#">INNOVATIVE PROJECTS</a></a></li>
+
+                <li><a href="assets\pdf\Internship Policy.pdf" target="_blank">INTERNSHIP POLICY</a></li>
+                <li><a href="course.html">IEC JOURNAL(IIJTM)</a></li>
+                <li><a href="course.html">CALL FOR MANUSCRIPTS</a></li>
+                <li><a href="course.html">R & D CELL PROJECTS</a></li>
+                <li><a href="course.html">PAPER PUBLICATION</a></li>
+                <li><a href="course.html">INSTITUTION OF ENGINEERS (IE) STUDENT'S CHAPTER</a></li>
+                <li><a href="course.html">INNOVATIVE PROJECTS</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html"><a href="#">CONTACT US</a></a></li>
-                <li><a href="course.html"><a href="#">GRIEVANCE</a></a></li>
-                <li><a href="course.html"><a href="#">IMPORTANT OFFICIALS</a></a></li>
+                <li><a href="course.html"><a href="#">CONTACT US</a></li>
+                <li><a href="course.html"><a href="#">GRIEVANCE</a></li>
+                <li><a href="#"><a href="official.php">IMPORTANT OFFICIALS</a></li>
               </ul>
             </li>
           </ul>
@@ -292,9 +201,11 @@
   </section>
   <!-- End service  -->
 
+
+
   <!-- Start about us -->
   <section id="mu-about-us">
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="mu-about-us-area">
@@ -322,10 +233,9 @@
                 <div class="mu-about-us-right">
                   <!-- <a id="mu-abtus-video" href="https://www.youtube.com/embed/KbBHzF1h7mM" target="mutube-video"> -->
                   <img src="https://www.iec.edu.in/img/banner.jpg" alt="">
-                    <!-- <img
-                      src="https://lh3.googleusercontent.com/3TfwokcHAMrcvBIXQucCA8NOrIvTgAq0Ppc4tQSN7rhOP1ZaWQpWVaKSpJ0uFOsPhe64P7QvFiVEmOuQLqo2QoBPlPLV65Bk3L-VT6-72Upslgf0Rgc44CVSpHU69T7R7VFN_78gin292sWxDk1LInUnN_73Xd1rfxKYiFmoZA-ijn5zKKLz6x_jXFiqNFb8thsfqcQMe9PeWcAp-PcrT-LLKyARVTogA5sMfGMUbPnZ3WLJafgT6uqZcUPomSRcB1k9VnIEI9MAgru7cJ5fbf0QrA-04LCmtYX8WgQ33b6o533L21fgXkwIZ3P38BV0IpBrN5gpI21inbu_h3dcHy3W6NnbntaN0XDrThGhQoRN9m1YWh7UX1v5C8srjazu-5U8UHfT_T3sA_QW96pk_-uZihBQCs1tffyfxB8NrOl11TNy5oqaynMHW3KXh-if0AuZ9GEyhAWohawdCvm6zg2Erl17t-e4eJL9ShAQ7jB2aV93SogqdJV2IJ5jyfKEUxu-dTg5P5O-eV7teOsBcxts67kx2zaYMh3Qx_cnoC8QRz-r7AH-1Wvy-mat7-9m37awUnhjSB6Fn8l_lknYK5WTiqwRHtTEkr4P6Vkw1jBYJqE7YnPM2klpbx4PVIVGGQgiltuX4884PiwKpSghavkNgZOCGSVGfl5G1zqPDcvp29zORji1ztaWj617B24=w926-h526-no?authuser=0"
-                      alt="img"> -->
-                  </a>
+
+
+
                 </div>
               </div>
             </div>
@@ -543,6 +453,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
   <!-- End latest course section -->
 
@@ -783,96 +694,9 @@
   </section>
   <!-- End from blog -->
 
-  <!-- Start footer -->
-  <footer id="mu-footer">
-    <!-- start footer top -->
-    <div class="mu-footer-top">
-      <div class="container">
-        <div class="mu-footer-top-area">
-          <div class="row">
-            <div class="col-lg-4 col-md- col-sm-4">
-              <div class="mu-footer-widget">
-                <h4>Vital Information</h4>
-                <ul>
-                  <li><a href="#">Do’s and Don’t</a></li>
-                  <li><a href="">IEC Academic Calendar</a></li>
-                  <li><a href="">Vidya Lakshmi</a></li>
-                  <li><a href="">Mandatory Disclosure</a></li>
-                  <li><a href="">Admission Enquiry</a></li>
-                  <li><a href="">Term Of Use</a></li>
-                  <li><a href="#">Rules & Regulations</a></li>
-                  <li><a href="#">Scholarship</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-              <div class="mu-footer-widget">
-                <h4>Reach Us</h4>
-                <ul>
-                  <li><a href="">Plot No.:-4, Knowledge Park-1,</a></li>
-                  <li><a href="#">Institutional Area,</a></li>
-                  <li><a href="">Surajpur Kasna Road, Greater Noida,</a></li>
-                  <li><a href="">District:- Gautam Budh Nagar, Uttar Pradesh-201310, (India)</a></li>
-                  <li><a href="">Admission Helpline: +91 98180 84007</a></li>
-                  <li><a href="">Tel No.:- 0120-2322858, 2322675</a></li>
-                  <li><a href="">Fax:- +91-120-2326529</a></li>
-                  <li><a href="">Toll Free No.:- 1800-3000-8301</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-              <div class="mu-footer-widget">
-                <h4>News letter</h4>
-                <p>Get latest update, news & academic offers</p>
-                <form class="mu-subscribe-form">
-                  <input type="email" placeholder="Type your Email">
-                  <button class="mu-subscribe-btn" type="submit">Subscribe!</button>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    <!-- end footer top -->
-    <!-- start footer bottom -->
-    <div class="mu-footer-bottom">
-      <div class="container">
-        <div class="mu-footer-bottom-area">
-          <p>&copy; All Right Reserved. Designed by HarshJha</a></p>
-        </div>
-      </div>
-    </div>
-    <!-- modal here -->
 
 
 
-    <!-- end footer bottom -->
-  </footer>
-  <!-- End footer -->
 
-  <!-- jQuery library -->
-  <script src="assets/js/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="assets/js/bootstrap.js"></script>
-  <!-- Slick slider -->
-  <script type="text/javascript" src="assets/js/slick.js"></script>
-  <!-- Counter -->
-  <script type="text/javascript" src="assets/js/waypoints.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
-  <!-- Mixit slider -->
-  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
-  <!-- Add fancyBox -->
-  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
-
-
-  <!-- Custom js -->
-  <script src="assets/js/custom.js"></script>
-
-</body>
-
-</html>
+    <!-- footer here -->
+    <?php  include 'template/footer.php';  ?>

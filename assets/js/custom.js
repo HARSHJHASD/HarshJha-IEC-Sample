@@ -1,30 +1,32 @@
-/** 
+/**
   * Template Name: Varsity
-  * Version: 1.0  
+  * Version: 1.0
   * Template Scripts
   * Author: MarkUps
   * Author URI: http://www.markups.io/
 
   Custom JS
-  
+
 
   1. SEARCH FORM
   2. ABOUT US VIDEO
   2. TOP SLIDER
-  3. ABOUT US (SLICK SLIDER) 
-  4. LATEST COURSE SLIDER (SLICK SLIDER) 
+  3. ABOUT US (SLICK SLIDER)
+  4. LATEST COURSE SLIDER (SLICK SLIDER)
   5. TESTIMONIAL SLIDER (SLICK SLIDER)
   6. COUNTER
   7. RELATED ITEM SLIDER (SLICK SLIDER)
   8. MIXIT FILTER (FOR GALLERY)
-  9. FANCYBOX (FOR PORTFOLIO POPUP VIEW)  
+  9. FANCYBOX (FOR PORTFOLIO POPUP VIEW)
   11. HOVER DROPDOWN MENU
-  12. SCROLL TOP BUTTON  
+  12. SCROLL TOP BUTTON
 
-  
+
 **/
 
 jQuery(function($){
+
+
 
 
   /* ----------------------------------------------------------- */
@@ -36,7 +38,7 @@ jQuery(function($){
         $('#mu-search').addClass('mu-search-open');
         $('#mu-search form input[type="search"]').focus();
     });
-    
+
     jQuery('.mu-search-close').on('click', function(event) {
       $("#mu-search").removeClass('mu-search-open');
     });
@@ -44,51 +46,51 @@ jQuery(function($){
 /* ----------------------------------------------------------- */
 /*  2. ABOUT US VIDEO
 /* ----------------------------------------------------------- */
-    // WHEN CLICK PLAY BUTTON 
+    // WHEN CLICK PLAY BUTTON
     jQuery('#mu-abtus-video').on('click', function(event) {
       event.preventDefault();
-      $('body').append("<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>");        
+      $('body').append("<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>");
       $("#mutube-video").attr("src", $(this).attr("href"));
-    });         
+    });
     // WHEN CLICK CLOSE BUTTON
-    $(document).on('click','#mu-video-close', function(event) {     
+    $(document).on('click','#mu-video-close', function(event) {
       $(this).parent("div").fadeOut(1000);
     });
     // WHEN CLICK OVERLAY BACKGROUND
     $(document).on('click','#about-video-popup', function(event) {
       $(this).remove();
     });
-  
+
   /* ----------------------------------------------------------- */
   /*  3. TOP SLIDER (SLICK SLIDER)
-  /* ----------------------------------------------------------- */    
+  /* ----------------------------------------------------------- */
 
     jQuery('#mu-slider').slick({
       dots: false,
       infinite: true,
       arrows: true,
-      speed: 500,     
-      autoplay: true,      
+      speed: 500,
+      autoplay: true,
       cssEase: 'linear'
     });
 
   /* ----------------------------------------------------------- */
   /*  4. ABOUT US (SLICK SLIDER)
-  /* ----------------------------------------------------------- */      
+  /* ----------------------------------------------------------- */
 
     jQuery('#mu-testimonial-slide').slick({
       dots: true,
       infinite: true,
       arrows: false,
       speed: 500,
-      autoplay: true,          
+      autoplay: true,
       cssEase: 'linear'
     });
-  
+
 
   /* ----------------------------------------------------------- */
   /*  5. LATEST COURSE SLIDER (SLICK SLIDER)
-  /* ----------------------------------------------------------- */    
+  /* ----------------------------------------------------------- */
 
     jQuery('#mu-latest-course-slide').slick({
       dots: true,
@@ -131,16 +133,16 @@ jQuery(function($){
 
   /* ----------------------------------------------------------- */
   /*  6. TESTIMONIAL SLIDER (SLICK SLIDER)
-  /* ----------------------------------------------------------- */    
+  /* ----------------------------------------------------------- */
 
     jQuery('.mu-testimonial-slider').slick({
-      dots: true,      
+      dots: true,
       infinite: true,
       arrows: false,
       autoplay: true,
-      speed: 500,      
+      speed: 500,
       cssEase: 'linear'
-    });       
+    });
 
   /* ----------------------------------------------------------- */
   /*  7. COUNTER
@@ -154,7 +156,7 @@ jQuery(function($){
 
   /* ----------------------------------------------------------- */
   /*  8. RELATED ITEM SLIDER (SLICK SLIDER)
-  /* ----------------------------------------------------------- */    
+  /* ----------------------------------------------------------- */
 
     jQuery('#mu-related-item-slide').slick({
       dots: false,
@@ -196,25 +198,25 @@ jQuery(function($){
     });
 
   /* ----------------------------------------------------------- */
-  /*  9. MIXIT FILTER (FOR GALLERY) 
-  /* ----------------------------------------------------------- */  
+  /*  9. MIXIT FILTER (FOR GALLERY)
+  /* ----------------------------------------------------------- */
 
     jQuery(function(){
       jQuery('#mixit-container').mixItUp();
     });
 
   /* ----------------------------------------------------------- */
-  /*  10. FANCYBOX (FOR PORTFOLIO POPUP VIEW) 
-  /* ----------------------------------------------------------- */ 
-      
+  /*  10. FANCYBOX (FOR PORTFOLIO POPUP VIEW)
+  /* ----------------------------------------------------------- */
+
     jQuery(document).ready(function() {
       jQuery(".fancybox").fancybox();
     });
-  
+
   /* ----------------------------------------------------------- */
   /*  11. HOVER DROPDOWN MENU
-  /* ----------------------------------------------------------- */ 
-  
+  /* ----------------------------------------------------------- */
+
   // for hover dropdown menu
     jQuery('ul.nav li.dropdown').hover(function() {
       jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
@@ -222,7 +224,7 @@ jQuery(function($){
       jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
     });
 
-    
+
   /* ----------------------------------------------------------- */
   /*  12. SCROLL TOP BUTTON
   /* ----------------------------------------------------------- */
@@ -236,14 +238,35 @@ jQuery(function($){
         jQuery('.scrollToTop').fadeOut();
       }
     });
-     
+
     //Click event to scroll to top
 
     jQuery('.scrollToTop').click(function(){
       jQuery('html, body').animate({scrollTop : 0},800);
       return false;
-    });  
-  
+    });
+
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
 
 });
-
