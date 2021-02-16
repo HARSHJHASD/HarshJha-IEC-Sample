@@ -1,18 +1,15 @@
 <?php  include 'template/header.php';  ?>
-
-
-
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="coursesapproved.php"><i class="fa fa-file">Approved Courses</i></a></li>
-                <li><a href="course-detail.html">Admission Process.</a></li>
-                <li><a href="course-detail.html">Documents Required.</a></li>
-                <li><a href="course-detail.html">Career Bulletin.</a></li>
-                <li><a href="course-detail.html">Eligibility.</a></li>
-                <li><a href="course-detail.html">Scholarship</a></li>
-                <li><a href="course-detail.html">FAQS</a></li>
+                <li><a href="coursesapproved.php">Approved Courses</a></li>
+                <li><a href="admission-procedure.php">Admission Process.</a></li>
+                <li><a href="Documents-Required.php">Documents Required.</a></li>
+                <li><a href="assets\pdf\Career-Bulletin.pdf" target="_blank">Career Bulletin.</a></li>
+                <li><a href="Eligibility.php">Eligibility.</a></li>
+                <li><a href="Scholarship.php">Scholarship</a></li>
+                <li><a href="Faq.php">FAQS</a></li>
                 <li><a href="course-detail.html">Online Payment</a></li>
                 <li><a href="course-detail.html">Fee Structure.</a></li>
                 <li><a href="course-detail.html">Education Loan.</a></li>
@@ -43,8 +40,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html">Graduate Courses</a></li>
-                <li><a href="course-detail.html">Post Graduate Courses</a></li>
+                <li><a href="#"><a href="contact-us.php">CONTACT US</a></li>
+                <li><a href="course.html"><a href="#">GRIEVANCE</a></li>
+                <li><a href="#"><a href="official.php">IMPORTANT OFFICIALS</a></li>
               </ul>
             </li>
             <li><a href="gallery.php">Gallery</a></li>
@@ -75,9 +73,9 @@
             <li class="active" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html">CONTACT US</a></li>
-                <li><a href="course.html">GRIEVANCE</a></li>
-                <li><a href="official.php">IMPORTANT OFFICIALS</a></li>
+                <li><a href="#"><a href="contact-us.php">CONTACT US</a></li>
+                <li><a href="course.html"><a href="Grievance.php">GRIEVANCE</a></li>
+                <li><a href="#"><a href="official.php">IMPORTANT OFFICIALS</a></li>
               </ul>
             </li>
           </ul>
